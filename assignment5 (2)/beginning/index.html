@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5</title>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../beginning/style/main.css">
+  
+</head>
+<body class="mt-2 ml-4">
+    <h1>Employee Management System</h1>
+    <!-- <form id="empForm">
+     
+    </form> -->
+
+    <form action="mailto:caldinodulce@hotmail.com" method="get" id="empForm" enctype="text/plain">
+        <fieldset>
+          <legend>Employee information:</legend>
+          <ul>
+            <li>
+                <label for="idEmployee">8-Digit Employee ID:</label>
+                <input type="text" name="id_employee" id="idEmployee" placeholder="12345678" required /> *
+            </li>
+
+            <li>
+              <label for="fullName">Full Name:</label>
+              <input type="text" name="full_name" id="fullName" placeholder="Enter your full name" required /> *
+            </li>
+          
+            <li>
+                <label for="digExt">4-Digit Extension:</label>
+                <input type="text" name="digExt" id="digExt" placeholder="1234" required /> *
+            </li>
+
+            <li>
+              <label for="email">Email Address</label>
+              <input type="email" name="email" id="email" placeholder="name@domain.com" required> *
+            </li>
+          
+            <li>
+                <label for="department">Deparment</label>
+                <select id="department" name="department">
+                  <option value="">Select Deparment:</option>
+                  <option value="adm">Administrative</option>
+                  <option value="eng">Engineering</option>
+                  <option value="exc">Executive</option>
+                  <option value="mkt">Marketing</option>
+                  <option value="ass">Quality Assurance</option>
+                  <option value="sls">Sales</option>
+                </select>
+              </li>
+          </ul>
+
+          <input type="submit" id="submit" value="Add Employee" />
+
+        </fieldset>
+
+        
+       
+    </form>
+    
+</body>
+</html>
